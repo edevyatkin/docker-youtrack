@@ -1,4 +1,4 @@
-FROM java:openjdk-7-jre
+FROM java:openjdk-7-jre-alpine
 MAINTAINER Maarten Balliauw <maarten.balliauw@jetbrains.com>
 
 RUN wget http://download-cf.jetbrains.com/charisma/youtrack-6.5.17057.jar -O youtrack.jar
